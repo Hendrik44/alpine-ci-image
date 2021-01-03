@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.12
 
 RUN apk update && apk upgrade \
 	&& apk add curl openssl ca-certificates bash git zip openssh-client rsync sshpass \
